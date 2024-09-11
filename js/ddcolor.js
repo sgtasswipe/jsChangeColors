@@ -2,7 +2,7 @@ const colArray = ["red", "blue" , "green" , "yellow" , "purple"];
 let pbFillDropdown = document.getElementById("pbFillDropdown")
 let ddColor = document.getElementById("ddColor")
 console.log("Script is running!");
-console.log(pbFillDropdown);  // Check if the button element is correctly identified
+console.log(pbFillDropdown);
 console.log(ddColor);
 let bdy = document.querySelector("body")
 
@@ -29,6 +29,9 @@ function setBackgroundColor() {
     const color = selectedColor.innerText
     bdy.style.backgroundColor = color;
 }
+
+
+
 
 
 
